@@ -1,0 +1,16 @@
+.counter {
+	display: flex;
+	flex-direction: column;
+	width: 10rem;
+}
+
+.counter-number {
+	text-align: center;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.counter-btn {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
