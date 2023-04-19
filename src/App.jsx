@@ -1,3 +1,4 @@
+import AddUser from './components/AddUser';
 import Counter from './components/counter';
 import FileUpload from './components/fileUpload';
 import HooksLearn from './components/hooksLearn';
@@ -14,7 +15,8 @@ const App = () => {
 			{/* <Todo /> */}
 			{/* <HooksLearn /> */}
 			{/* <Toggle /> */}
-			<UserAuth />
+			{/* <UserAuth /> */}
+			<AddUser />
 		</div>
 	);
 };

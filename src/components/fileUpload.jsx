@@ -12,7 +12,6 @@ const FileUpload = () => {
 		const formData = new FormData();
 		formData.append('csvFile', file);
 		const resp = await axios.post(UPLOAD_ENDPOINT, formData);
-		alert(resp.data.message);
 		console.log(resp.data.message);
 	};
 
