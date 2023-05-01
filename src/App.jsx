@@ -1,12 +1,12 @@
 import AddUser from './components/AddUser';
 import useFetch from './components/useFetch';
 import Theme from './components/Theme';
-import Counter from './components/counter';
-import FileUpload from './components/fileUpload';
-import HooksLearn from './components/hooksLearn';
-import Todo from './components/todo';
-import Toggle from './components/toggle';
-import UserAuth from './components/userAuth';
+import Counter from './components/Counter';
+import FileUpload from './components/FileUpload';
+import HooksLearn from './components/HooksLearn';
+import Todo from './components/Todo';
+import Toggle from './components/Toggle';
+import UserAuth from './components/UserAuth';
 import './styles/App.css';
 import { useState, createContext } from 'react';
 
@@ -27,14 +27,14 @@ const App = () => {
 				{/* <UserAuth /> */}
 				{/* <AddUser /> */}
 				{/* <Theme /> */}
-				{todoData &&
+				{/* {todoData &&
 					todoData.map((item) => {
 						return (
 							<div key={item.id}>
 								<p>{item.title}</p>
 							</div>
 						);
-					})}
+					})} */}
 			</ThemeContext.Provider>
 		</div>
 	);
